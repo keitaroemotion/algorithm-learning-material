@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 set -e
-gcc src/main.c -o target/a.out
+gcc src/main.c src/bubble_sort.c --save-temps -o target/a.out
 ./target/a.out
