@@ -3,3 +3,5 @@
 set -e
 gcc src/main.c src/bubble_sort.c --save-temps -o target/a.out
 ./target/a.out
+
+rm *.bc *.i *.o *.s
